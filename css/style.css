@@ -110,3 +110,22 @@ header{}
     height: auto;
     width: auto;
 }
+
+/* inspiration */
+.inspiration{}
+.inspiration-part{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.inspiration-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.inspiration-video{
+    text-align: center;
+}
