@@ -68,4 +68,45 @@ header{}
     color: rgb(255, 255, 255);
     padding: 16px 20px 16px 20px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+/* development part */
+.development{}
+.dev-header{
+    text-align: center;
+    margin: 80px 0;
+}
+.dev-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.dev-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.dev-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+.dev-part .dev-details{
+    margin: 0 16px;
+}
+.dev-details>h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.dev-details>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.dev-image{}
+.dev-image > img{
+    height: auto;
+    width: auto;
 }
