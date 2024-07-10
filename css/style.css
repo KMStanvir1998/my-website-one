@@ -531,6 +531,7 @@ input[placeholder]{
 .ending-part{
     display: flex;
     justify-content: space-around;
+    margin: 40px 0;
 }
 .footer-text{
     font-size: 20px;
