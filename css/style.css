@@ -213,3 +213,311 @@ header{}
     cursor: pointer;
 }
 .target-detail{margin: 25px 25px;}
+
+/* support section */
+.support{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 70px;
+}
+.support-banner{
+    margin-bottom: 50px;
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    @import url('https: //fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+    body{
+  font-family: "Azeret Mono", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header-part */
+    header{}
+.hearder-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.hearder-part
+    h1{
+    font-size: 28px;
+    font-weight: 800;
+}
+.btn-primary{
+    background-color: transparent;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/*banner-part */
+.banner{
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: auto;
+    margin-top: 50px;
+}
+.banner-part{
+    text-align: center;
+    margin: 26px 225px;
+    position: absolute;
+}
+.banner-image{
+    height: auto;
+    margin-bottom: 30px;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.banner-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.contact-btn{
+    background-color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 16px 20px 16px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* development part */
+.development{}
+.dev-header{
+    text-align: center;
+    margin: 80px 0;
+}
+.dev-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.dev-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.dev-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+.dev-part .dev-details{
+    margin: 0 16px;
+}
+.dev-details>
+    h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.dev-details>
+    p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.dev-image{}
+.dev-image >
+    img{
+    height: auto;
+    width: auto;
+}
+
+/* inspiration */
+.inspiration{
+    margin-bottom: 120px;
+}
+.inspiration-part{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.inspiration-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.inspiration-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.inspiration-video{
+    text-align: center;
+}
+
+/* current target */
+.current-target{
+}
+.targer-part{
+    text-align: center;
+}
+.target-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.target-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.target-section{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    /* text-align: center; */
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 52px;
+}
+
+.target-html{
+    background-color: rgba(255, 76, 30, 0.05);
+    height: 300px;
+    width: 364px;
+}
+.html-img{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.html{
+    margin-bottom: 20px;
+}
+.html-text{}
+
+.target-css{
+    background-color: rgba(0, 76, 232, 0.05);
+    height: 300px;
+    width: 364px;
+}
+.css-img{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.css{
+    margin-bottom: 20px;
+}
+.css-text{}
+
+.target-java{
+    background-color: rgba(255, 223, 0, 0.05);
+    height: 300px;
+    width: 364px;
+}
+.java-img{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.java{
+    margin-bottom: 20px;
+}
+.java-text{}
+
+
+.target-btn{
+    color: rgb(13, 19, 33);
+    background-color: transparent;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.target-detail{
+    margin: 25px 25px;}
+
+/* support section */
+.support{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 70px;
+}
+.support-banner{
+    margin-bottom: 50px;
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+.support-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff99;
+}
+.submit-section{
+    text-align: center;
+    padding-bottom: 70px;
+}
+    input{
+    padding: 20px 120px 20px 120px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0 0 0);
+    border-radius: 8px;
+}
+.btn-submit{
+    padding: 12px 40px 12px 40px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+};
+    border-radius: 16px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+.support-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff99;
+}
+.submit-section{
+    text-align: center;
+    padding-bottom: 70px;
+}
+input{
+    padding: 20px 120px 20px 120px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0 0 0);
+    border-radius: 8px;
+    outline: none;
+}
+.btn-submit{
+    padding: 12px 40px 12px 40px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+input[placeholder]{
+}
