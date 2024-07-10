@@ -486,8 +486,10 @@ header{}
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+    outline: none;
 };
     border-radius: 16px;
+    background-size: auto;
 }
 .support-title{
     font-size: 32px;
@@ -520,4 +522,22 @@ input{
     cursor: pointer;
 }
 input[placeholder]{
+}
+
+/* footer part */
+.last-part{
+    margin-top: 80px;
+}
+.ending-part{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons{
+}
+.icons > a{
+    padding: 0 30px;
 }
