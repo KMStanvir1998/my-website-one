@@ -112,7 +112,9 @@ header{}
 }
 
 /* inspiration */
-.inspiration{}
+.inspiration{
+    margin-bottom: 120px;
+}
 .inspiration-part{
     text-align: center;
     margin-bottom: 80px;
@@ -129,3 +131,85 @@ header{}
 .inspiration-video{
     text-align: center;
 }
+
+/* current target */
+.current-target{
+}
+.targer-part{
+    text-align: center;
+}
+.target-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.target-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.target-section{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    /* text-align: center; */
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 52px;
+}
+
+.target-html{
+    background-color: rgba(255, 76, 30, 0.05);
+    height: 300px;
+    width: 364px;
+}
+.html-img{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.html{
+    margin-bottom: 20px;
+}
+.html-text{}
+
+.target-css{
+    background-color: rgba(0, 76, 232, 0.05);
+    height: 300px;
+    width: 364px;
+}
+.css-img{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.css{
+    margin-bottom: 20px;
+}
+.css-text{}
+
+.target-java{
+    background-color: rgba(255, 223, 0, 0.05);
+    height: 300px;
+    width: 364px;
+}
+.java-img{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.java{
+    margin-bottom: 20px;
+}
+.java-text{}
+
+
+.target-btn{
+    color: rgb(13, 19, 33);
+    background-color: transparent;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.target-detail{margin: 25px 25px;}
